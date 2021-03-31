@@ -1,0 +1,100 @@
+header .cabecalho {
+    justify-content: space-between;
+}
+
+body {
+    background-color: #353535;
+    color:white;
+}
+
+.img_camisas{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.preco {
+    color: black;
+    font-weight: 800;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo_principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    border: 1px solid white;
+    height: 550px;
+}
+
+.colecao .tema{
+
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    header .container{
+        width: 80%;
+    }
+
+    body {
+        align-items: center;
+    }
+
+    .titulo_principal{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-left: 80px;
+    }
+
+
+    header .menu_principal{
+        font-size: 20px;
+    }
+
+    .tema {
+        margin-bottom: 10px;
+    }
+
+    header{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+
+    .item {
+        height: 450px;
+    }
+}
+   
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
